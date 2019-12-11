@@ -11,7 +11,7 @@ import { numbers } from '../../../data'
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
-  const [numberState] = useState(numbers);
+  const [numberState, setNumberState] = useState(numbers);
   // console.log("number button", numberState, useState('hi'));
 
   return (

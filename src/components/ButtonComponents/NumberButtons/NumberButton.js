@@ -5,7 +5,7 @@ const NumberButton = (props) => {
   return (
     <button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-        <span>{props.button}</span>
+        <span onClick={() => console.log('button pressed!')}>{props.button}</span>
     </button>
   );
 };
